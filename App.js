@@ -6,11 +6,11 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.text}>Siapa presiden indonesia sekarang? = ....</Text>
       <View style={styles.boxContainer}>
-        {/* Kotak 1 dengan warna hijau lembut */}
+      
         <View style={[styles.box, styles.box1]}>
           <Text style={styles.boxText}>Prabowo</Text>
         </View>
-        {/* Kotak 2 dengan warna oranye lembut */}
+        
         <View style={[styles.box, styles.box2]}>
           <Text style={styles.boxText}>agus</Text>
         </View>
@@ -23,14 +23,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'linear-gradient(180deg, #fffbdf, #e3f9ff)', // Latar belakang gradasi cerah
+    backgroundColor: 'linear-gradient(180deg, #fffbdf, #e3f9ff)',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
   },
   text: {
     fontSize: 28,
-    color: '#333333', // Warna teks abu-abu gelap
+    color: '#333333', 
     fontWeight: 'bold',
     marginBottom: 40,
     textAlign: 'center',
@@ -53,16 +53,16 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 5 },
   },
   box1: {
-    backgroundColor: '#a0e7e5', // Warna solid hijau lembut
-    shadowColor: '#76c7c5', // Bayangan hijau lebih gelap
+    backgroundColor: '#a0e7e5', 
+    shadowColor: '#76c7c5',
   },
   box2: {
-    backgroundColor: '#ffc478', // Warna solid oranye lembut
-    shadowColor: '#d6a867', // Bayangan oranye lebih gelap
+    backgroundColor: '#ffc478', 
+    shadowColor: '#d6a867',
   },
   boxText: {
     fontSize: 20,
-    color: '#ffffff', // Teks putih untuk kontras
+    color: '#ffffff', 
     fontWeight: 'bold',
   },
 });
